@@ -16,7 +16,7 @@ Build the project to iOS using XCode. Remember, we're using Normcore so we have 
 There is only one monkey
 Position and rotation synced with Normcore
 On Detect Image
-We know where the computer is now. Use some math to make our 0,0,0, its 0,0,0.
+We know where the computer is now. Use some math to make our 0,0,0, its 0,0,0. This is done via `MakeContentAppearAt()` from ARFoundation. Calling this method with a placeholder object at the world origin can have the effect of "resetting the AR session origin" to whatever spot you want. In this case, we reset the world origin to the center of the desktop screen as this is where it is on the desktop version itself. 
 
 ## Future Work
 
@@ -29,17 +29,15 @@ Use Viewport images as recognition images in dynamic networked image library
 ## Credit
 
 For the original paper and idea:
-Christian Vazquez
-Benjamin Reynolds
-Hisham Bedri
-Anna Fusté
-Valentin Heun
+
+Christian Vazquez, Benjamin Reynolds, Hisham Bedri, Anna Fusté, and Valentin Heun. 2019. Air: augmented intersection of realities. In ACM SIGGRAPH 2019 Virtual, Augmented, and Mixed Reality (SIGGRAPH ’19). Association for Computing Machinery, New York, NY, USA, Article 14, 1. DOI:https://doi.org/10.1145/3306449.3328812
+
 
 ### Models
 Suzanne from Blender ;)
 
 ### Marker
-Amazing optimized tracker generator from @evryone_XR
+Amazing optimized tracker generator from @evryone_XR:
 https://codepen.io/staus/full/oEOJpq
 
 ### Icons
