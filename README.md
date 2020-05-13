@@ -9,6 +9,8 @@ This project aims to capture an early prototype of what moving content this way 
 
 Here's a [demo](https://youtu.be/AGNKFUgsUr4).
 
+Contact dillonc@vt.edu with questions or comments.
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine. 
 
@@ -28,6 +30,20 @@ Once the coordinate systems are lined up, all thats left to do is pull the objec
 
 Once the object is out in space, pressing the 'apple with arrows' button will add a rigidbody to the object, letting it fall to land on any planes detected thusfar.
 
+## Project Structure
+
+All assets generated specifically for this project are in `Assets/intuitive-cross-platform-ar-interaction`. Anything outside this folder are external assets used in the project. Inside, there is a standard `Materials, Prefabs, Scripts, ...` setup.
+
+## Libraries
+
+This project uses [ARFoundation](https://unity.com/unity/features/arfoundation) on top of [ARKit](https://developer.apple.com/augmented-reality/) for augmented reality functionality.
+
+It uses [Normcore](https://normcore.io/?utm_source=normalvr.com) for networking functionality.
+
+It's best to consult the documentation for these libraries if you aren't familar with them.
+
+The rest is custom written and can be found in `Assets/intuitive-cross-platform-ar-interaction\Scripts`.
+
 ## Future Work & Ideas
 
 Generate (room id, recognition image) pairs for any model. Upload the pair to a database. Mobile users recognize image, then join room. This would enable the use of multiple models and a generally more 'real' app.
@@ -40,12 +56,18 @@ Build to web to make accessible. Use QR code as recognition image to decrease st
 
 Use viewport images as recognition images in dynamic networked image library. Note that the rotation of the viewport via mouse will be interpereted as a rotation of the recognition image if not dealt with properly. Also note that the quality of the viewport as a reference image is likely to be lower than the quality given by an optimized tracker like the one I used. However, if these problems can be overcome, a markerless experience would be better.
 
+There are many things than can be offshoots from this project and many ways that this interaction technique could be used in other situations. Contact dillonc@vt.edu to discuss any of these if you feel so inclined.
+
 ## Credit
 
-For the original paper and idea:
+Project: Dillon Cutaiar (dillonc@vt.edu)
+Done in Collaberation with: Doug Bowman & Todd Ogle at Virginia Tech
 
+For the original paper and idea:
 Christian Vazquez, Benjamin Reynolds, Hisham Bedri, Anna Fusté, and Valentin Heun. 2019. Air: augmented intersection of realities. In ACM SIGGRAPH 2019 Virtual, Augmented, and Mixed Reality (SIGGRAPH ’19). Association for Computing Machinery, New York, NY, USA, Article 14, 1. DOI:https://doi.org/10.1145/3306449.3328812
 
+### Clipping Plane Shader
+Amzing work from [Ronja Böhringer](https://www.ronja-tutorials.com/2018/08/06/plane-clipping.html)
 
 ### Models
 Suzanne from Blender ;)

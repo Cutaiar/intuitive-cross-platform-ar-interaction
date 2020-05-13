@@ -1,4 +1,6 @@
-﻿Shader "Custom/ClippingPlane"{
+﻿// Credit: Ronja Böhringer
+// https://www.ronja-tutorials.com/2018/08/06/plane-clipping.html
+Shader "Custom/ClippingPlane"{
     //show values to edit in inspector
     Properties{
         _Color ("Tint", Color) = (0, 0, 0, 1)
