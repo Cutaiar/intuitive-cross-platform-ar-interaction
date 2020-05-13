@@ -13,14 +13,30 @@ Just clone this repo and open with the Unity verison found in `ProjectVersion.tx
 Build the project to iOS using XCode. Remember, we're using Normcore so we have to remember to add `libz.tbd` to the Link with Libraries section in the Build Phases of the Unity Platform Target.
 
 ## How it Works
+There is only one monkey
+Position and rotation synced with Normcore
+On Detect Image
+We know where the computer is now. Use some math to make our 0,0,0, its 0,0,0.
 
 ## Future Work
 
+Generate (room id, recognition image) pairs for any model. Upload the pair to a database. Mobile users recognize image, then join room.
+Overcome physical sizing issues
+Use sound, animation, and other UX to provide even more feedback about what’s going on
+Build to web to make accessible. Use QR code as recognition image to decrease steps for the user to take
+Use Viewport images as recognition images in dynamic networked image library
+
 ## Credit
 
-### Models
+For the original paper and idea:
+Christian Vazquez
+Benjamin Reynolds
+Hisham Bedri
+Anna Fusté
+Valentin Heun
 
-Suzanne from blener
+### Models
+Suzanne from Blender ;)
 
 ### Marker
 Amazing optimized tracker generator from @evryone_XR
