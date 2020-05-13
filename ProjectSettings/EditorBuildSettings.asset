@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/ObjectSync/ComputerView.unity
+    path: Assets/intuitive-cross-platform-ar-interaction/ComputerView.unity
     guid: 73e72bdf92c0b44e3895e812fe87ec5d
   - enabled: 1
-    path: Assets/ObjectSync/ARView.unity
+    path: Assets/intuitive-cross-platform-ar-interaction/ARView.unity
     guid: d5759494ad85a4d7bab8e48fc946128c
   m_configObjects:
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 9ec258fcaf78347348831edeab975d14,
