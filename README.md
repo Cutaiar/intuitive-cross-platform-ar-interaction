@@ -1,5 +1,5 @@
 # Intuitive Cross Platform Interaction in Augmented Reality
-In spring of 2020, this research was conducted by Dillon Cutaiar to generate example code and documentation for the 'pull out of screen' interaction pattern in augmented reality. This interaction technique can be seen [here](https://twitter.com/ptcrealitylab/status/1154375767956119554?lang=en), who's paper can be found [here](https://dl.acm.org/doi/10.1145/3306449.3328812).
+In spring of 2020, this research was conducted by Dillon Cutaiar to generate example code and documentation for the 'pull out of screen' interaction pattern in augmented reality. This interaction technique can be seen [here](https://twitter.com/ptcrealitylab/status/1154375767956119554?lang=en) by @PTCRealityLab, who's paper can be found [here](https://dl.acm.org/doi/10.1145/3306449.3328812).
 
 This project is a replication of the results discussed in that paper. I use ARFoundation with ARKit under the hood for AR, Normcore to handle network communications, a custom shader to clip the object as it appears to pass though the computer screen, and custom object manipulation code to allow the user to move the object. Once the user has pulled the object out of the screen, they can apply physics which causes it to fall to surface below it -- usually a keyboard.
 
@@ -42,7 +42,7 @@ It uses [Normcore](https://normcore.io/?utm_source=normalvr.com) for networking 
 
 It's best to consult the documentation for these libraries if you aren't familiar with them.
 
-The rest is custom written and can be found in `Assets/intuitive-cross-platform-ar-interaction\Scripts`.
+The rest is custom written and can be found in `Assets/intuitive-cross-platform-ar-interaction/Scripts`.
 
 ## Future Work & Ideas
 
