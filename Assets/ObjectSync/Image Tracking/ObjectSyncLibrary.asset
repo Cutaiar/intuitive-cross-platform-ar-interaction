@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ObjectSyncLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4709795860498930335
+  m_GuidHigh: 4415825609413416866
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5452400914974330090
+      m_GuidHigh: 3569703944330834870
+    m_SerializedTextureGuid:
+      m_GuidLow: 3749468044780113386
+      m_GuidHigh: 5519609094810412633
+    m_Size: {x: 0.034, y: 0.034}
+    m_SpecifySize: 1
+    m_Name: OptimizedMarker
+    m_Texture: {fileID: 2800000, guid: 39cc0deac952340859a630433a97994c, type: 3}
