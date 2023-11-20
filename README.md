@@ -3,22 +3,15 @@ In spring of 2020, this research was conducted by Dillon Cutaiar to generate exa
 
 This project is a replication of the results discussed in that paper. I use ARFoundation with ARKit under the hood for AR, Normcore to handle network communications, a custom shader to clip the object as it appears to pass though the computer screen, and custom object manipulation code to allow the user to move the object. Once the user has pulled the object out of the screen, they can apply physics which causes it to fall to surface below it -- usually a keyboard.
 
-As computing interactions become more spatial (hold devices close to share files, connect headphones, etc.) and AR becomes more prevalent and practice, the moving of digital content via space will become more normal as well. Rather than sharing content, documents, or models with a share button, we will simply "move" the content through space and onto the target device. Think every sci-fi movie ever.
+As computing interactions become more spatial (hold devices close to share files, connect headphones, etc.) and AR becomes more prevalent and practice, the moving of digital content via space will become more normal as well. Rather than sharing content, documents, or models with a share button, we will simply "move" the content through space and onto the target device. This project aims to capture an early prototype of what moving content this way might feel like. [Demo video](https://youtu.be/AGNKFUgsUr4) below.
 
-This project aims to capture an early prototype of what moving content this way might feel like.
-
-Here's a [demo](https://youtu.be/AGNKFUgsUr4).
-
-Contact dillonc@vt.edu with questions or comments.
+[![Demo video](https://img.youtube.com/vi/AGNKFUgsUr4/0.jpg)](https://www.youtube.com/watch?v=AGNKFUgsUr4)
 
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine. 
-
-### Download
-Just clone this repo and open with the Unity version found in `ProjectVersion.txt`.
-
-### Building & Testing
-Build the project to iOS using XCode. Remember, we're using Normcore so we have to remember to add `libz.tbd` to the Link with Libraries section in the Build Phases of the Unity Platform Target.
+To get a copy of the project up and running on your local machine:
+1. Clone this repo and open with the Unity version found in `ProjectVersion.txt`.
+2. Build the project to iOS using XCode.
+3. Remember, we're using Normcore so we have to remember to add `libz.tbd` to the Link with Libraries section in the Build Phases of the Unity Platform Target.
 
 ## How it Works
 There is only one "shared" object. You can imagine there is only one and its position and rotation synced with Normcore. The only issue is that the coordinate system between the phone and desktop don't match up. We solve this using a detected image.
